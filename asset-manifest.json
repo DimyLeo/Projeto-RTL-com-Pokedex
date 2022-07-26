@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Projeto-RTL-com-Pokedex/static/css/main.a48fcf80.css",
-    "main.js": "/Projeto-RTL-com-Pokedex/static/js/main.6153d3a9.js",
+    "main.css": "/Projeto-RTL-com-Pokedex/static/css/main.06f7712a.css",
+    "main.js": "/Projeto-RTL-com-Pokedex/static/js/main.968d1bc3.js",
     "index.html": "/Projeto-RTL-com-Pokedex/index.html",
-    "main.a48fcf80.css.map": "/Projeto-RTL-com-Pokedex/static/css/main.a48fcf80.css.map",
-    "main.6153d3a9.js.map": "/Projeto-RTL-com-Pokedex/static/js/main.6153d3a9.js.map"
+    "main.06f7712a.css.map": "/Projeto-RTL-com-Pokedex/static/css/main.06f7712a.css.map",
+    "main.968d1bc3.js.map": "/Projeto-RTL-com-Pokedex/static/js/main.968d1bc3.js.map"
   },
   "entrypoints": [
-    "static/css/main.a48fcf80.css",
-    "static/js/main.6153d3a9.js"
+    "static/css/main.06f7712a.css",
+    "static/js/main.968d1bc3.js"
   ]
 }
