@@ -1,5 +1,5 @@
-import React from 'react';
 import PropTypes from 'prop-types';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 import { pokemonType } from '../types';
@@ -14,22 +14,24 @@ class Pokemon extends React.Component {
 
     return (
       <div className="pokemon">
+        <div className="div-img-pokemon">
+        <p className="pokemon-name" data-testid="pokemon-name">{name}</p>
+          <img src={ `${image}` } alt={ `${name} sprite` } />
+          {isFavorite && (
+            <img
+              className="favorite-icon"
+              src={ `/star-icon.svg` }
+              alt={ `${name} is a favorite` }
+            />
+          )}
+        </div>
         <div className="pokemon-overview">
-          <p data-testid="pokemon-name">{name}</p>
-          <p data-testid="pokemon-type">{`${type}`}</p>
-          <p data-testid="pokemon-weight">
+          <p className="pokemons-infos" data-testid="pokemon-type">{`${type}`}</p>
+          <p className="pokemons-infos" data-testid="pokemon-weight">
             Average weight: {value} {measurementUnit}
           </p>
           {showDetailsLink && <Link to={ `pokemons/${id}` }>More details</Link>}
         </div>
-        <img src={ `${image}` } alt={ `${name} sprite` } />
-        {isFavorite && (
-          <img
-            className="favorite-icon"
-            src={ `/star-icon.svg` }
-            alt={ `${name} is marked as favorite` }
-          />
-        )}
       </div>
     );
   }
