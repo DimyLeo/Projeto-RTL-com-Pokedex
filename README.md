@@ -31,7 +31,7 @@ Foi utilizado 1 [APIs](#apis-usadas) para realizar a buscas dos diversos Pokemon
 ## APIs usadas:
 ### Poké API
 
-[Poké API]https://pokeapi.co) É um banco de dados aberto, para trazer caracteristicas dos Pokemons, como peso, altura, foto etc.
+[Poké API](https://pokeapi.co) É um banco de dados aberto, para trazer caracteristicas dos Pokemons, como peso, altura, foto etc.
 
 ---
 ### Para verificar o ambiente de Desenvolvimento:
